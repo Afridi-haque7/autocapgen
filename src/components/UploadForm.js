@@ -19,6 +19,7 @@ export default function UploadForm() {
           const res = await axios.postForm('/api/upload', {
             file,
           });
+          console.log(res);
           setIsUploading(false);
           const newName = res.data.newName;
           router.push('/'+newName);
