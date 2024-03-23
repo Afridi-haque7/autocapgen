@@ -119,7 +119,7 @@ export default function ResultVideo({ filename, transcriptionItems }) {
         </div>
 
 
-        <div className="rounded-xl overflow-hidden relative scale-75">
+        <div className="rounded-xl overflow-hidden relative">
         {progress && progress < 1 && (
           <div className="absolute inset-0 bg-black/80 flex items-center">
             <div className="w-full text-center">
